@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator simple</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <input type="text" id="display" />
+        <button class="yellow" onclick="clearDisplay()">C</button>
+        <button onclick="del()">del</button>
+        <button onclick="operator('√')">√</button>
+        <button onclick="operator('*')">*</button>
+        <button onclick="numb('7')">7</button>
+        <button onclick="numb('8')">8</button>
+        <button onclick="numb('9')">9</button>
+        <button onclick="operator('+')">+</button>
+        <button onclick="numb('4')">4</button>
+        <button onclick="numb('5')">5</button>
+        <button onclick="numb('6')">6</button>
+        <button onclick="operator('-')">-</button>
+        <button onclick="numb('1')">1</button>
+        <button onclick="numb('2')">2</button>
+        <button onclick="numb('3')">3</button>
+        <button onclick="operator('/')">/</button>
+        <button onclick="numb('0')">0</button>
+        <button onclick="numb('.')">.</button>
+        <button onclick="numb('00')">00</button>
+        <button class="yellow" onclick="calculate()">=</button>
+      </div>
+    </div>
+    <script src="config.js"></script>
+  </body>
+</html>
