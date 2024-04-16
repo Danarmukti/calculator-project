@@ -1,4 +1,4 @@
-#learning about javascript 
+#learning about javascript <br>
 #this is my first project javascript beginner project 
 
-# (C)DanarCode
+# ©DanarCode
